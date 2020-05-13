@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+import "google/protobuf/any.proto";
+
+message HashMap {
+  map<string, string> value = 1;
+}
+
+message AnyVal {
+  google.protobuf.Any value = 1;
+}
+
+message BoolValue {
+  bool value = 1;
+}
+
+message BytesValue {
+  bytes value = 1;
+}
+
+message DoubleValue {
+  double value = 1;
+}
+
+message FloatValue {
+  float value = 1;
+}
+
+message Int32Value {
+  int32 value = 1;
+}
+
+message Int64Value {
+  int64 value = 1;
+}
+
+message StringValue {
+  string value = 1;
+}

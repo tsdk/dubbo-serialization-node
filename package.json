@@ -1,7 +1,7 @@
 {
-  "name": "sofa-bolt-node",
+  "name": "dubbo-serialization-node",
   "version": "1.2.1",
-  "description": "bolt protocol nodejs implementation",
+  "description": "dubbo protocol nodejs implementation",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -21,8 +21,7 @@
     "url": "git+https://github.com/alipay/sofa-bolt-node.git"
   },
   "keywords": [
-    "sofa",
-    "bolt",
+    "dubbo",
     "rpc"
   ],
   "author": "gxcsoccer <gxcsoccer@126.com>",
