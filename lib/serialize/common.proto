@@ -3,7 +3,7 @@ syntax = "proto3";
 import "google/protobuf/any.proto";
 
 message HashMap {
-  map<string, string> value = 1;
+  map<string, string> attachments = 1;
 }
 
 message AnyVal {
