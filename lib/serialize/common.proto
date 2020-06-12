@@ -1,13 +1,11 @@
 syntax = "proto3";
 
-import "google/protobuf/any.proto";
-
 message HashMap {
-  map<string, string> attachments = 1;
+  map<string, string> value = 1;
 }
 
 message AnyVal {
-  google.protobuf.Any value = 1;
+  string value = 1;
 }
 
 message BoolValue {
