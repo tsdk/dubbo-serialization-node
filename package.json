@@ -1,6 +1,6 @@
 {
   "name": "dubbo-serialization-node",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "description": "dubbo protocol nodejs implementation",
   "main": "lib/index.js",
   "files": [
