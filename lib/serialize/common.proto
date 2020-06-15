@@ -35,3 +35,7 @@ message Int64Value {
 message StringValue {
   string value = 1;
 }
+
+message ArrayValue {
+  repeated string value = 1;
+}
